@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.container-four{
+    background-color: #F9F9FB;
+}
+
+.info-content{
+    padding-right: 130px;
+    margin-top: 80px;
+}
+
+#circle_couple{
+    width: 540px;
+    height: 670px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.for-more-details{
+    margin-top: 20px;
+    color: #BBBDBF;
+    font-size: 16px;
+}
+
+.social-icons-for-details img{
+    width: 17px;
+    height: 17px;
+    margin: 10px;
+}
+
+.info-header span{
+    font-family: 'Mustica Pro', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    display: flex;
+    flex-direction: column;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+#info-desc{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 140%;
+    color: #232932;
+}
+
+.detail-button-name{
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.detail-button-arrow{
+    padding: 10px;
+}
+
+.play-button{
+    background-color: #FFFFFF;
+    font-weight: 600;
+    padding: 15px;
+    margin: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 60px;
+}
+
+.detail-main-button{
+    margin-top: 20px;
+    background-color: #0EADB5;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 60px;
+}

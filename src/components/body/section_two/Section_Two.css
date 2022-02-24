@@ -1,0 +1,91 @@
+.container-two{
+    background-color: #F9F9FB;
+}
+
+.help-content{
+    padding-right: 130px;
+    margin-top: 50px;
+}
+
+#circle_man{
+    width: 519px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.text-social-media-two{
+    margin-left: 120px;
+    color: #BBBDBF;
+    font-size: 16px;
+}
+
+.social-icons img{
+    width: 17px;
+    height: 17px;
+    margin-left: 25px;
+}
+
+.text-help span{
+    font-family: 'Mustica Pro', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 1px 3px 2px lightgray;
+    line-height: 140%;
+}
+
+.doc-button{
+    margin-top: 15px;
+    background-color: #0EADB5;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 60px;
+}
+
+.mssg-button{
+    border-radius: 60px;
+    padding:19px;
+    margin: 20px 20px 30px 20px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 2px lightgray;
+    border: none;
+}
+
+.home-button{
+    border-radius: 60px;
+    padding: 19px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 2px lightgray;
+    border: none;
+}
+
+.mssg-button img{
+    width: 22px;
+    height: 22px;
+}
+
+.home-button img{
+    width: 22px;
+    height: 22px;
+}
+
+#spec-desc{
+    font-size: 18px;
+    font-family: 'Mustica Pro', sans-serif;
+    line-height: 140%;
+    text-shadow: 1px 3px 2px lightgray;
+    color: #232932;
+}
+
+#rule-desc{
+    font-size: 18px;
+    font-family: 'Mustica Pro', sans-serif;
+    line-height: 140%;
+    text-shadow: 1px 3px 2px lightgray;
+    color: #BBBDBF;
+}
