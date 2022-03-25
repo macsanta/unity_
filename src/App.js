@@ -28,7 +28,7 @@ class App extends Component {
     render() {
         return (
             <Router>
-                    <div>
+                    <div className='App'>
                         <div className='header'>
                             <header className='row navbar'>
                                 <div className='container d-flex'>
