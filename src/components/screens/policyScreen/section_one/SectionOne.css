@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 .first-container{
     padding-left: 130px;
     margin-top: 40px;
@@ -102,13 +100,13 @@
     height: 570px;
 }
 
-#double-right{
+#lock{
     width: 170px;
     height: 170px;
-    top: 300px;
-    left: 75px;
+    top: 400px;
+    left: 85px;
 }
 
-#circle_grl, #double-right{
+#circle_grl, #lock{
     position: relative;
 }

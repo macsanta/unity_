@@ -9,6 +9,7 @@ import circle_man from "../../../content/circle_man.png";
 import doc_icon from "../../../content/doc-icon.png";
 import mssg_icon from "../../../content/message-alt.png"
 import home_icon from "../../../content/home-icon.png"
+import double_right from "../../../content/chevron-double-right.png"
 
 import './Section_Two.css'
 
@@ -17,8 +18,9 @@ export const SectionTwo = () => {
         <div>
             <div className='container-two d-flex justify-content-between'>
                 <div>
-                    <div><img id='circle_man' src={circle_man} alt=""/></div>
-                    <div className='d-flex mt-4'>
+                    <img id='double-right-blue' src={double_right} alt=""/>
+                    <div className='circle_man'><img id='circle_man' src={circle_man} alt=""/></div>
+                    <div className='d-flex mb-5'>
                         <div className='text-social-media-two'><p >Слідкуйте за нами: </p></div>
                         <div className='social-icons'>
                             <img src={viber} alt=""/>
@@ -38,24 +40,24 @@ export const SectionTwo = () => {
                         </span>
                     </div>
                     <div className='mt-4'><p id='spec-desc'>Наші спеціалісти нададуть відповідь вам у <br/>
-                            всіх питаннях що стосується переїзду та <br/>
-                            роботи в Європі</p>
+                        всіх питаннях що стосується переїзду та <br/>
+                        роботи в Європі</p>
                     </div>
                     <div className='help-buttons d-flex pb-3'>
-                            <div><button type='button' className='doc-button'><img src={doc_icon} alt=""/>ДОКУМЕНТИ</button></div>
-                            <div><button type='button' className='mssg-button'><img src={mssg_icon} alt=""/></button></div>
-                            <div><button type='button' className='home-button'><img src={home_icon} alt=""/></button></div>
+                        <div><button type='button' className='doc-button'><img src={doc_icon} alt=""/>ДОКУМЕНТИ</button></div>
+                        <div><button type='button' className='mssg-button'><img src={mssg_icon} alt=""/></button></div>
+                        <div><button type='button' className='home-button'><img src={home_icon} alt=""/></button></div>
                     </div>
                     <div>
                         <p id='rule-desc'>Почни з виготовлення візи! А точніше – з <br/>
-                           замовлення запрошення на пів року у нас. <br/>
-                           Запрошення на пів року дає право Тобі <br/>
-                           працювати на території Польщі протягом 180 <br/>
-                           днів . Після цього Ти зобов’язаний <br/>
-                           повернутися в Україну. За таким <br/>
-                           запрошенням зазвичай їздять вперше, щоб <br/>
-                           зрозуміти, чи підходять умови роботи і сам <br/>
-                           роботодавець.
+                            замовлення запрошення на пів року у нас. <br/>
+                            Запрошення на пів року дає право Тобі <br/>
+                            працювати на території Польщі протягом 180 <br/>
+                            днів . Після цього Ти зобов’язаний <br/>
+                            повернутися в Україну. За таким <br/>
+                            запрошенням зазвичай їздять вперше, щоб <br/>
+                            зрозуміти, чи підходять умови роботи і сам <br/>
+                            роботодавець.
                         </p>
                     </div>
                 </div>

@@ -1,0 +1,25 @@
+.header-adv-container{
+    background: url(../../../../content/background.png) no-repeat scroll;
+    background-size: 100%;
+    padding: 40px 30px 11px 111px;
+}
+
+.header-adv span{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Mustica Pro', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.vacancy-tg-viber{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    background-color: #0EADB5;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 60px;
+}

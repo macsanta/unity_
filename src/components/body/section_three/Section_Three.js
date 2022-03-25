@@ -2,6 +2,7 @@ import './Section_Threee.css'
 import viber from '../../../content/viber-icon-white.png'
 import telegram from '../../../content/telegram-icon-white.png'
 import phone from "../../../content/circle_phone.png"
+import double_right from "../../../content/double-right.png";
 
 export const SectionThree = () => {
     return (
@@ -39,6 +40,7 @@ export const SectionThree = () => {
                 </div>
                 <div>
                     <div className='circle_phone'>
+                        <img id='double-right' src={double_right} alt=""/>
                         <div><img id='circle_phone' src={phone} alt=""/></div>
                     </div>
                 </div>

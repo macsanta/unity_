@@ -10,12 +10,14 @@ import play from "../../../content/play.png"
 
 import './Section_Four.css'
 import arrow from "../../../content/arrow-right.png";
+import double_right from "../../../content/chevron-double-right.png";
 
 export const SectionFour = () => {
     return (
         <div>
             <div className='container-four d-flex justify-content-between'>
-                <div>
+                <img id='double-right-blue' src={double_right} alt=""/>
+                <div className='circle_couple'>
                     <div><img id='circle_couple' src={circle_couple} alt=""/></div>
                 </div>
                 <div className='info-content'>
@@ -27,8 +29,8 @@ export const SectionFour = () => {
                     </div>
                     <div className='mt-4'>
                         <p id='info-desc'>Список ключових слів та фраз, коротка інформація <br/>
-                        про країну в котру ви плануєте їхати на заробітки <br/>
-                        чи преїжджати на постійне місце проживання.
+                            про країну в котру ви плануєте їхати на заробітки <br/>
+                            чи преїжджати на постійне місце проживання.
                         </p>
                     </div>
                     <div className='details-buttons d-flex'>
@@ -49,7 +51,7 @@ export const SectionFour = () => {
                     <div>
                         <div className='for-more-details'>
                             <p>Також зі всією інформацію ви можете <br/>
-                            ознайомитимь в наших соц. мережах:
+                                ознайомитимь в наших соц. мережах:
                             </p>
                         </div>
                         <div className='social-icons-for-details'>

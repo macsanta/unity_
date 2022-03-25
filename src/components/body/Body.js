@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Body.css'
 import {SectionOne} from "./section_one";
 import {SectionTwo} from "./section_two";
 import SectionThree from "./section_three/Section_Three";
@@ -8,7 +9,7 @@ import {SectionFive} from "./section_five";
 class Body extends Component {
     render() {
         return (
-            <div>
+            <div className='body'>
                 <SectionOne/>
                 <SectionTwo/>
                 <SectionThree/>

@@ -1,0 +1,89 @@
+.search-result-headers {
+    /*padding-right: 10px;*/
+    margin: 40px 60px 20px 50px;
+}
+
+.result-amount span{
+    color: #0EADB5;
+}
+.result-amount{
+    color: #232932;
+    font-family: 'Mustica Pro', sans-serif;
+    font-weight: 600;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+
+.result-sorting span{
+    color: #BBBDBF;
+}
+
+.result-sorting{
+    color: #232932;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-left: 265px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.card {
+    width: 18rem;
+    box-shadow: 0 10px 15px -10px rgba(17, 17, 17, 0.55);
+    background-color: #F9F9FB;
+    margin-right: 30px;
+}
+
+.card-content{
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.card img {
+    margin: 0 auto;
+}
+.card .card-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: 'Mustica Pro', sans-serif;
+    background-color: #F9F9FB;
+    text-transform: uppercase;
+}
+.card-body{
+    background-color: #F9F9FB;
+}
+
+#card-title-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Mustica Pro', sans-serif;
+    color: #232932;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.vacancies-details span{
+    color: #BBBDBF;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vacancies-details img{
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+}
+
+.salary{
+    text-transform: uppercase;
+    color: #232932;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.salary span{
+    font-size: 24px;
+}

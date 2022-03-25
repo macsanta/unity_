@@ -2,6 +2,9 @@
 
 .container-four{
     background-color: #F9F9FB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 15px;
 }
 
 .info-content{
@@ -12,9 +15,17 @@
 #circle_couple{
     width: 540px;
     height: 670px;
+    right: 170px;
     margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 40px;
+}
+#double-right-blue{
+    left: 400px
+}
+
+#circle_couple, #double-right-blue{
+    position: relative;
 }
 
 .for-more-details{
