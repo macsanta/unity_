@@ -14,7 +14,7 @@ import double_right from '../../../content/double-right.png'
 export const SectionOne = () => {
     return (
         <div>
-            <div className='container-one d-flex justify-content-between'>
+            <div className='container d-flex'>
                 <div className='first-container'>
                     <div id='el-1'><span>ХТО ЯК НЕ UNITY?</span></div>
                     <div id='el-2'>

@@ -6,7 +6,7 @@
 
 .App {
   margin: 0;
-  min-width: 1460px;
+  min-width: 1400px;
 }
 
 /*header*/
@@ -14,10 +14,11 @@
   min-height: 90px;
   box-shadow: 1px 2px 4px #eeeeee;
   padding: 30px 70px 30px 100px;
+  margin: 0 auto;
 }
 
 .container{
-  width: 1460px;
+  width: 1700px;
   margin: 0 auto;
 }
 
@@ -41,7 +42,7 @@
 
 .nav-item {
   /*margin-left: 30px;*/
-  margin-top: 5px;
+  /*margin-top: 5px;*/
   /*color: #232932 !important;*/
   text-decoration: none;
   font-size: 16px;
@@ -57,24 +58,11 @@ a:active {
   color: #BBBDBF;
 }
 
-/*ul.nav li a, ul.nav li a:visited {*/
-/*    color: #BBBDBF !important;*/
-/*}*/
-
-/*ul.nav li a:hover, ul.nav li a:active {*/
-/*    color: #232932 !important;*/
-/*}*/
-
-/*ul.nav li.active a {*/
-/*    color: #232932 !important;*/
-/*}*/
-
 .lang-content{
   display: flex;
 }
 
 .lang-section {
-  padding-top: 5px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
 }
@@ -99,7 +87,6 @@ a:active {
 
 .footer{
   min-height: 90px;
-  /*box-shadow: 1px 2px 4px #eeeeee;*/
   padding: 10px 70px 30px 100px;
   background-color: #232932;
 }
@@ -112,14 +99,10 @@ a:active {
 .img-ukr-footer {
   width: 33px;
   height: 33px;
-  /*margin-left: 30px; */
   margin-top: 5px;
 }
 
 .nav-item-foot {
-  /*margin-left: 30px;*/
-  margin-top: 5px;
-  /*color: #232932 !important;*/
   text-decoration: none;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
@@ -131,7 +114,7 @@ a:active {
 }
 
 .lang-section-footer {
-  padding-top: 45px;
+  margin-top: 55px;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
   /*padding-right: 30px;*/
@@ -173,5 +156,14 @@ a:active {
   margin-bottom: 40px;
 }
 
+.nav-foot{
+  padding-top: 15px;
+}
 
-
+@media screen and (min-width: 1600px) {
+  .header{
+    min-height: 90px;
+    box-shadow: 1px 2px 4px #eeeeee;
+    padding: 60px 80px 50px 150px;
+  }
+}

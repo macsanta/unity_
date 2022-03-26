@@ -18,7 +18,7 @@ import './SelectedVacancyBody.css'
 export const SelectedVacancyBody = () => {
 
     return(
-        <div>
+        <div className='container'>
             <div className='selected-vacancy-header'>
                 <div><span>Відкрита вакансія</span></div>
                 <div><h1>Зварювальник tig 140</h1></div>

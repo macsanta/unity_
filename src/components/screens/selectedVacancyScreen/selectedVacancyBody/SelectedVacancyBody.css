@@ -1,5 +1,5 @@
 .selected-vacancy-header{
-    margin: 40px 111px 20px 111px;
+    margin: 40px 50px 20px 50px;
 }
 
 .selected-vacancy-header span{
@@ -67,19 +67,19 @@
 
 .horizontal-line-top{
     border-bottom: 1px solid #BBBDBF;
-    width: 85%;
-    margin-left: 111px;
+    width: 93%;
+    margin-left: 50px;
 }
 .horizontal-line-bottom{
     border-bottom: 1px solid #BBBDBF;
-    width: 85%;
+    width: 93%;
     margin-bottom: 30px;
-    margin-left: 111px;
+    margin-left: 50px;
 }
 
 .vert-line{
     border-left: 1px solid #BBBDBF;
-    height: 716px;
+    height: 766px;
     margin-left: 111px;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .vacancy-details {
-    margin-left: 111px;
+    margin-left: 50px;
 }
 
 .additional {
@@ -105,7 +105,7 @@
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    margin: 40px 111px 20px 111px;
+    margin: 40px 111px 20px 50px;
 }
 
 .sent-CV {
@@ -115,7 +115,7 @@
     padding: 20px;
     border: none;
     border-radius: 60px;
-    margin: 20px 111px 40px 111px;
+    margin: 20px 50px 40px 50px;
 }
 
 .sentCV-name {
@@ -124,7 +124,7 @@
 }
 
 .welder_video_container{
-    margin: 60px 20px 0 110px;
+    margin: 90px 20px 0 80px;
 }
 
 #welder_video{
@@ -141,7 +141,7 @@
 }
 
 .card-vac-assessment{
-    margin: 30px 20px 0 130px;
+    margin: 30px 20px 0 100px;
     background-color: #F9F9FB;
     border-radius: 40px 40px 40px 40px;
     width: 300px;

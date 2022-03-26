@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .vacancies-desc{
-    padding-left: 130px;
+    margin-left: 40px;
     margin-top: 100px;
 }
 
@@ -79,7 +79,6 @@
 }
 
 .circle_phone {
-    padding-right: 228px;
 }
 
 

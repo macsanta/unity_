@@ -14,10 +14,10 @@ import double_right from "../../../content/chevron-double-right.png";
 
 export const SectionFour = () => {
     return (
-        <div>
-            <div className='container-four d-flex justify-content-between'>
-                <img id='double-right-blue' src={double_right} alt=""/>
+        <div className='full-content'>
+            <div className='container d-flex'>
                 <div className='circle_couple'>
+                <img id='double-right-blue-couple' src={double_right} alt=""/>
                     <div><img id='circle_couple' src={circle_couple} alt=""/></div>
                 </div>
                 <div className='info-content'>

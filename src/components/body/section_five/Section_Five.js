@@ -10,7 +10,7 @@ import telegram from "../../../content/Telegram.png";
 
 export const SectionFive = () => {
     return (
-        <div className='container-five'>
+        <div className='container'>
             <div className='about-us-header'>
                 <span>Хто ми такі? <br/>
                       Та звідки ми з`явились?
@@ -62,17 +62,16 @@ export const SectionFive = () => {
                         </button>
                     </div>
                 </div>
-                <div className='d-flex'>
-                    <div className='social-media-icons'><p >Слідкуйте за нами: </p></div>
-                    <div className='icons'>
-                        <img src={viber} alt=""/>
-                        <img src={facebook} alt=""/>
-                        <img src={instagram} alt=""/>
-                        <img src={linkedin} alt=""/>
-                        <img src={tiktok} alt=""/>
-                        <img src={youtube} alt=""/>
-                        <img src={telegram} alt=""/>
-                    </div>
+                <div className='text-social-media-five d-flex mb-5 mt-2'><p >Слідкуйте за нами: </p >
+                    <span className='social-icons'>
+                            <img src={viber} alt=""/>
+                            <img src={facebook} alt=""/>
+                            <img src={instagram} alt=""/>
+                            <img src={linkedin} alt=""/>
+                            <img src={tiktok} alt=""/>
+                            <img src={youtube} alt=""/>
+                            <img src={telegram} alt=""/>
+                        </span>
                 </div>
             </div>
         </div>

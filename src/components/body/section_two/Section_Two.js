@@ -15,14 +15,13 @@ import './Section_Two.css'
 
 export const SectionTwo = () => {
     return (
-        <div>
-            <div className='container-two d-flex justify-content-between'>
-                <div>
-                    <img id='double-right-blue' src={double_right} alt=""/>
+        <div className='full-content'>
+            <div className='container d-flex'>
+                <div className='first-container'>
+                    <img id='double-right-blue-man' src={double_right} alt=""/>
                     <div className='circle_man'><img id='circle_man' src={circle_man} alt=""/></div>
-                    <div className='d-flex mb-5'>
-                        <div className='text-social-media-two'><p >Слідкуйте за нами: </p></div>
-                        <div className='social-icons'>
+                        <div className='text-social-media-two d-flex mb-5'><p >Слідкуйте за нами: </p >
+                            <span className='social-icons'>
                             <img src={viber} alt=""/>
                             <img src={facebook} alt=""/>
                             <img src={instagram} alt=""/>
@@ -30,8 +29,8 @@ export const SectionTwo = () => {
                             <img src={tiktok} alt=""/>
                             <img src={youtube} alt=""/>
                             <img src={telegram} alt=""/>
+                        </span>
                         </div>
-                    </div>
                 </div>
                 <div className='help-content'>
                     <div className='text-help'>

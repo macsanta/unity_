@@ -1,12 +1,14 @@
 .policy-sect-two {
     background: #F9F9FB;
-    display:inline-block;
-    width: fit-content;
 }
 
 .policy-content {
-    padding: 40px 300px 80px 100px;
-    margin-left: 30px;
+    /*padding: 40px 300px 80px 100px;*/
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-right: 270px;
+    padding-left: 120px;
+    /*margin-left: 30px;*/
 }
 
 .policy-content span{

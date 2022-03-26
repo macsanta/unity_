@@ -1,36 +1,41 @@
-.container-two{
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.full-content{
     background-color: #F9F9FB;
-    padding-left: 30px;
 }
 
 .help-content{
-    padding-right: 140px;
+    margin-left: 235px;
     margin-top: 80px;
 }
 
 #circle_man{
     width: 490px;
     height: 500px;
-    margin-left: 100px;
     bottom: 50px;
 }
 
-#double-right-blue{
+.first-container{
+    margin-left: 65px;
+}
+
+#double-right-blue-man{
     width: 170px;
     height: 170px;
     top: 40px;
-    left: 410px
-    /*right: 210px*/
+    left: 310px;
 }
 
-#double-right-blue, #circle_man{
+#double-right-blue-man, #circle_man{
     position: relative;
 }
 
 .text-social-media-two{
-    margin-left: 140px;
     color: #BBBDBF;
     font-size: 16px;
+    margin-left: 40px;
 }
 
 .social-icons img{

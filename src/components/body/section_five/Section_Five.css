@@ -12,16 +12,23 @@
     font-weight: 600;
     color: #232932;
     text-transform: uppercase;
-    margin: 30px 20px 30px 109px;
+    margin: 30px 0 30px 40px;
 }
 
 .about-us-details p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #BBBDBF;
-    line-height: 140%;
-    margin-left: 110px;
-    padding-right: 130px;
+    line-height: 140%
+}
+
+.about-us-details{
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.question-content{
+    width: 800px;
 }
 
 .quest-txt{
@@ -30,7 +37,6 @@
     font-weight: 600;
     color: #232932;
     text-transform: uppercase;
-    margin: 10px 20px 30px 109px;
 }
 
 .send-button{
@@ -61,7 +67,6 @@
 }
 
 .text-input {
-    margin: 10px 20px 30px 109px;
     /*font-weight: bolder;*/
 }
 ::placeholder{
@@ -83,4 +88,9 @@ input::placeholder{
     width: 17px;
     height: 17px;
     margin: 9px;
+}
+
+.text-social-media-five{
+    color: #BBBDBF;
+    font-size: 16px;
 }

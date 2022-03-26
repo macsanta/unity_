@@ -1,5 +1,5 @@
 .header-adv-container{
-    background: url(../../../../content/background.png) no-repeat scroll;
+    background: url(../../../../content/background.png) no-repeat center / cover;
     background-size: 100%;
     padding: 40px 30px 11px 111px;
 }

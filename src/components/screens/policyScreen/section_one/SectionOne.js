@@ -12,7 +12,7 @@ import lock from "../../../../content/lock.png";
 export const SectionOne = () => {
     return (
         <div className='policy-sect-one'>
-            <div className='container-one d-flex justify-content-between'>
+            <div className='container d-flex'>
                 <div className='first-container'>
                     <div id='el-1'><span>Ми піклуємось про твою конфіденційність</span></div>
                     <div id='el-2'>
@@ -49,7 +49,7 @@ export const SectionOne = () => {
                 <div>
                     <div className='second-container d-flex'>
                         <div className='lock'><img id='lock' src={lock} alt=""/></div>
-                        <div className='circle_grl'><img id='circle_grl' src={circle_grl} alt=""/></div>
+                        <div className='circle_grl_policy'><img id='circle_grl_policy' src={circle_grl} alt=""/></div>
                     </div>
                 </div>
             </div>

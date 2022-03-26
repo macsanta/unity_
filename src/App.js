@@ -91,7 +91,7 @@ class App extends Component {
                                     </div>
                                     <div className='col-md-6'>
                                         <div className='block d-flex'>
-                                            <ul className="nav  mt-5">
+                                            <ul className="nav nav-foot  mt-5">
                                                 <li className="nav-item active">
                                                     <Link to='/' className="nav-link link-light" target='_top'>
                                                         Головна

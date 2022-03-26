@@ -7,7 +7,7 @@ import double_right from "../../../content/double-right.png";
 export const SectionThree = () => {
     return (
         <div>
-            <div className='container-three d-flex justify-content-between'>
+            <div className='container d-flex'>
                 <div className='vacancies-desc'>
                     <div className='vacancies-suggest'>
                         <span>НОВІ ТА АКТУАЛЬНІ <br/>
