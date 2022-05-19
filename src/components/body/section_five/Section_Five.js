@@ -47,14 +47,15 @@ export const SectionFive = () => {
                 <div className='quest-txt'>
                     <p>У вас є запитання?</p>
                 </div>
+                <form action="https://submit-form.com/T6Zt6bRc">
                 <div className='text-input d-flex'>
                     <div>
                         <div>
-                            <input type="text" className="custom-input" placeholder="ВВЕДІТЬ АДРЕС ПОЧТИ АБО НОМЕР ТЕЛЕФОНУ" aria-label=""/>
+                            <input ttype="email" id="email" name="email" className="custom-input" placeholder="ВВЕДІТЬ АДРЕС ПОЧТИ АБО НОМЕР ТЕЛЕФОНУ" aria-label=""/>
                         </div>
                     </div>
                     <div>
-                        <button className='send-button'>
+                        <button type="submit" className='send-button'>
                             <div className='d-flex'>
                                 <div className='send-button-name'>Відправити</div>
                                 <div><img src={arrow} alt="" className='send-button-arrow'/></div>
@@ -62,15 +63,16 @@ export const SectionFive = () => {
                         </button>
                     </div>
                 </div>
+                </form>
                 <div className='text-social-media-five d-flex mb-5 mt-2'><p >Слідкуйте за нами: </p >
                     <span className='social-icons'>
-                            <img src={viber} alt=""/>
-                            <img src={facebook} alt=""/>
-                            <img src={instagram} alt=""/>
-                            <img src={linkedin} alt=""/>
+                            <a href='https://invite.viber.com/?g2=AQBoRIqGrKx%2BKk83b31gmbs9o00ejfuFz5Ua5p7Z7AAod5eqdbc5KaYROGdQokTj' target="_blank"><img src={viber} alt=""/></a>
+                            <a href='https://www.facebook.com/106079551979276/posts/110426328211265/?d=n' target="_blank"><img src={facebook} alt=""/></a>
+                            <a href='https://www.instagram.com/p/CZJZoiyo3sG/?igshid=YmMyMTA2M2Y=' target="_blank"><img src={instagram} alt=""/></a>
+                            {/* <img src={linkedin} alt=""/>
                             <img src={tiktok} alt=""/>
-                            <img src={youtube} alt=""/>
-                            <img src={telegram} alt=""/>
+                            <img src={youtube} alt=""/> */}
+                            <a href='https://t.me/unityworkua' target='_blank'><img src={telegram} alt=""/></a>
                         </span>
                 </div>
             </div>

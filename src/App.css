@@ -167,3 +167,7 @@ a:active {
     padding: 60px 80px 50px 150px;
   }
 }
+
+.active a{
+  color: #1a1e21;
+}

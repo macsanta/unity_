@@ -50,7 +50,7 @@
     font-size: 44px;
     display: flex;
     flex-direction: column;
-    text-shadow: 1px 3px 2px lightgray;
+    /* text-shadow: 1px 3px 2px lightgray; */
     line-height: 140%;
 }
 

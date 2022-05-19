@@ -15,14 +15,14 @@
     font-size: 18px;
     font-family: 'Mustica Pro', sans-serif;
     line-height: 140%;
-    text-shadow: 1px 3px 2px lightgray;
+    /* text-shadow: 1px 3px 2px lightgray; */
     color: #BBBDBF;
 }
 
 .policy-content h2{
     font-weight: bolder;
     text-transform: uppercase;
-    text-shadow: 1px 3px 2px lightgray;
+    /* text-shadow: 1px 3px 2px lightgray; */
     color: #232932;
 }
 
@@ -30,6 +30,6 @@
     font-family: 'Montserrat', sans-serif;
     color: #232932;
     line-height: 140%;
-    text-shadow: 1px 3px 2px lightgray;
+    /* text-shadow: 1px 3px 2px lightgray; */
     font-weight: 100;
 }

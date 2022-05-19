@@ -14,20 +14,24 @@ export const HeaderAdv = () => {
                 </div>
                 <div className='share-buttons d-flex'>
                     <div>
-                        <button className='vacancy-tg-viber'>
-                            <div className='d-flex'>
-                                <div><img src={telegram} alt="" id='tg-bttn base'/></div>
-                                <div className='tg-button-name'>TELEGRAM</div>
-                            </div>
-                        </button>
+                        <a href='https://t.me/unityworkua' target="_blank">
+                            <button className='vacancy-tg-viber'>
+                                <div className='d-flex'>
+                                    <div><img src={telegram} alt="" id='tg-bttn base'/></div>
+                                    <div className='tg-button-name'>TELEGRAM</div>
+                                </div>
+                            </button>
+                        </a>
                     </div>
                     <div>
-                        <button className='vacancy-tg-viber'>
-                            <div className='d-flex'>
-                                <div><img src={viber} alt="" id='viber-bttn base'/></div>
-                                <div className='viber-button-name'>НАШ VIBER</div>
-                            </div>
-                        </button>
+                        <a href='https://invite.viber.com/?g2=AQBoRIqGrKx%2BKk83b31gmbs9o00ejfuFz5Ua5p7Z7AAod5eqdbc5KaYROGdQokTj' target="_blank">
+                            <button className='vacancy-tg-viber'>
+                                <div className='d-flex'>
+                                    <div><img src={viber} alt="" id='viber-bttn base'/></div>
+                                    <div className='viber-button-name'>НАШ VIBER</div>
+                                </div>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

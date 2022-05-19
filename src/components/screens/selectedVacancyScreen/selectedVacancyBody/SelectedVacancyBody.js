@@ -29,11 +29,11 @@ export const SelectedVacancyBody = () => {
                             <span>10 вільних місць</span>
                         </div>
                         <div className='icons-for-vacancy'>
-                            <img src={viber} alt="Viber"/>
-                            <img src={facebook} alt="Facebook"/>
-                            <img src={instagram} alt="Instagram"/>
-                            <img src={linkedin} alt="LinkedIn"/>
-                            <img src={telegram} alt="Telegram"/>
+                        <a href='https://invite.viber.com/?g2=AQBoRIqGrKx%2BKk83b31gmbs9o00ejfuFz5Ua5p7Z7AAod5eqdbc5KaYROGdQokTj' target="_blank"><img src={viber} alt="Viber"/></a>
+                        <a href='https://www.facebook.com/106079551979276/posts/110426328211265/?d=n' target="_blank"><img src={facebook} alt="Facebook"/></a>
+                        <a href='https://www.instagram.com/p/CZJZoiyo3sG/?igshid=YmMyMTA2M2Y=' target="_blank"><img src={instagram} alt="Instagram"/></a>
+                            {/* <img src={linkedin} alt="LinkedIn"/> */}
+                            <a href='https://t.me/unityworkua' target='_blank'><img src={telegram} alt="Telegram"/></a>
                         </div>
                     </div>
                     <div className='share-vacancy'>

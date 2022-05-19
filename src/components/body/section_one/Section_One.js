@@ -10,6 +10,11 @@ import youtube from '../../../content/YouTube.png'
 import telegram from '../../../content/Telegram.png'
 import circle_grl from '../../../content/grl_1.png'
 import double_right from '../../../content/double-right.png'
+import {
+    BrowserRouter as Router,
+    Route,
+    Link, Routes
+} from "react-router-dom";
 
 export const SectionOne = () => {
     return (
@@ -27,29 +32,32 @@ export const SectionOne = () => {
                     </div>
                     <div className='buttons d-flex'>
                         <div>
-                            <button className='main-button'>
+                        <a href='/vacancies'><button className='main-button'>
                                 <div className='main-button-container'>
                                     <div className='button-name'>СПИСОК ВАКАНСІЙ</div>
                                     <div><img src={arrow} alt="" className='button-arrow'/></div>
+                                    
                                 </div>
                             </button>
+                            </a>
+    
                         </div>
                         <div>
-                            <button type='button' className='clip-button'>
+                            <a href='mailto:info@unityteam.pl'><button type='button' className='clip-button'>
                                 <img src={clip} alt=""/>
-                            </button>
+                            </button></a>
                         </div>
                     </div>
                     <div className='d-flex mt-4'>
                         <div className='text-social-media'><p >Слідкуйте за нами: </p></div>
                         <div className='social-icons'>
-                            <img src={viber} alt=""/>
-                            <img src={facebook} alt=""/>
-                            <img src={instagram} alt=""/>
-                            <img src={linkedin} alt=""/>
+                        <a href='https://invite.viber.com/?g2=AQBoRIqGrKx%2BKk83b31gmbs9o00ejfuFz5Ua5p7Z7AAod5eqdbc5KaYROGdQokTj' target="_blank"><img src={viber} alt=""/></a>
+                        <a href='https://www.facebook.com/106079551979276/posts/110426328211265/?d=n' target="_blank"><img src={facebook} alt=""/></a>
+                        <a href='https://www.instagram.com/p/CZJZoiyo3sG/?igshid=YmMyMTA2M2Y=' target="_blank"><img src={instagram} alt=""/></a>
+                            {/* <img src={linkedin} alt=""/>
                             <img src={tiktok} alt=""/>
-                            <img src={youtube} alt=""/>
-                            <img src={telegram} alt=""/>
+                            <img src={youtube} alt=""/> */}
+                            <a href='https://t.me/unityworkua' target='_blank'><img src={telegram} alt=""/></a>
                         </div>
                     </div>
                 </div>

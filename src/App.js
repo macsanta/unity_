@@ -48,7 +48,7 @@ class App extends Component {
                                                         Вакансії
                                                     </Link>
                                                 </li>
-                                                <li className="nav-item">
+                                                {/* <li className="nav-item">
                                                     <Link to='#' className="nav-link link-dark">
                                                         Корисно знати
                                                     </Link>
@@ -62,7 +62,7 @@ class App extends Component {
                                                     <Link to='#' className="nav-link link-dark">
                                                         Контакти
                                                     </Link>
-                                                </li>
+                                                </li> */}
                                             </ul>
                                         </div>
                                     </div>
@@ -91,8 +91,8 @@ class App extends Component {
                                     </div>
                                     <div className='col-md-6'>
                                         <div className='block d-flex'>
-                                            <ul className="nav nav-foot  mt-5">
-                                                <li className="nav-item active">
+                                            <ul className="nav nav-foot">
+                                                <li className="nav-item">
                                                     <Link to='/' className="nav-link link-light" target='_top'>
                                                         Головна
                                                     </Link>
@@ -102,7 +102,7 @@ class App extends Component {
                                                         Вакансії
                                                     </Link>
                                                 </li>
-                                                <li className="nav-item">
+                                                {/* <li className="nav-item">
                                                     <Link to='#' className='nav-link link-light' target='_top'>
                                                         Корисно знати
                                                     </Link>
@@ -116,17 +116,17 @@ class App extends Component {
                                                     <Link to='#' className='nav-link link-light' target='_top'>
                                                         Контакти
                                                     </Link>
-                                                </li>
-                                                <li className="nav-item mt-4">
+                                                </li> */}
+                                                <li className="nav-item">
                                                     <Link to='/policy' className='nav-link link-light' target='_top'>
                                                         Політика щодо обробки персональних даних
                                                     </Link>
                                                 </li>
-                                                <li className="nav-item mt-4">
+                                                {/* <li className="nav-item mt-4">
                                                     <Link to='#' className='nav-link link-light' target='_top'>
                                                         Завантажити резюме
                                                     </Link>
-                                                </li>
+                                                </li>  */}
                                             </ul>
                                         </div>
                                     </div>
@@ -137,13 +137,13 @@ class App extends Component {
                                             <span className='lang-el-3-footer'>Dla Partnerów</span>
                                             <span><img src={langUkr} alt="" className='img-ukr'/></span>
                                             <div className='icons-footer'>
-                                                <img src={viber} alt="Viber"/>
-                                                <img src={facebook} alt="Facebook"/>
-                                                <img src={instagram} alt="Instagram"/>
-                                                <img src={linkedin} alt="LinkedIn"/>
+                                            <a href='https://invite.viber.com/?g2=AQBoRIqGrKx%2BKk83b31gmbs9o00ejfuFz5Ua5p7Z7AAod5eqdbc5KaYROGdQokTj' target="_blank"><img src={viber} alt="Viber"/></a>
+                                            <a href='https://www.facebook.com/106079551979276/posts/110426328211265/?d=n' target="_blank"><img src={facebook} alt="Facebook"/></a>
+                                            <a href='https://www.instagram.com/p/CZJZoiyo3sG/?igshid=YmMyMTA2M2Y=' target="_blank"><img src={instagram} alt="Instagram"/></a>
+                                                {/* <img src={linkedin} alt="LinkedIn"/>
                                                 <img src={tiktok} alt="TikTok"/>
-                                                <img src={youtube} alt="YouTube"/>
-                                                <img src={telegram} alt="Telegram"/>
+                                                <img src={youtube} alt="YouTube"/> */}
+                                                <a href='https://t.me/unityworkua' target='_blank'><img src={telegram} alt="Telegram"/></a>
                                             </div>
                                         </div>
                                     </div>

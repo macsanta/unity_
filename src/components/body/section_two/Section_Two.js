@@ -22,13 +22,13 @@ export const SectionTwo = () => {
                     <div className='circle_man'><img id='circle_man' src={circle_man} alt=""/></div>
                         <div className='text-social-media-two d-flex mb-5'><p >Слідкуйте за нами: </p >
                             <span className='social-icons'>
-                            <img src={viber} alt=""/>
-                            <img src={facebook} alt=""/>
-                            <img src={instagram} alt=""/>
-                            <img src={linkedin} alt=""/>
+                            <a href='https://invite.viber.com/?g2=AQBoRIqGrKx%2BKk83b31gmbs9o00ejfuFz5Ua5p7Z7AAod5eqdbc5KaYROGdQokTj' target="_blank"><img src={viber} alt=""/></a>
+                            <a href='https://www.facebook.com/106079551979276/posts/110426328211265/?d=n' target="_blank"><img src={facebook} alt=""/></a>
+                            <a href='https://www.instagram.com/p/CZJZoiyo3sG/?igshid=YmMyMTA2M2Y=' target="_blank"><img src={instagram} alt=""/></a>
+                            {/* <img src={linkedin} alt=""/>
                             <img src={tiktok} alt=""/>
-                            <img src={youtube} alt=""/>
-                            <img src={telegram} alt=""/>
+                            <img src={youtube} alt=""/> */}
+                            <a href='https://t.me/unityworkua' target='_blank'><img src={telegram} alt=""/></a>
                         </span>
                         </div>
                 </div>
